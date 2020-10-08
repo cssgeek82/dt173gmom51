@@ -1,0 +1,18 @@
+
+*Locally: 
+Create:
+localhost/dt173gmom51/courses.php
+
+Read:
+localhost/dt173gmom51/courses.php
+
+Read one: 
+localhost/dt173gmom51/courses.php?id=X
+
+Update:
+localhost/dt173gmom51/courses.php?id=X
+
+Delete:
+localhost/dt173gmom51/courses.php?id=X
+
+X= id-number
