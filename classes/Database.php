@@ -1,13 +1,13 @@
 <?php
 
 // Database connection settings 
-$onlineMode = false;  // false when run locally, put true before upload
+$onlineMode = true;  // false when run locally, put true before upload
 
 if ($onlineMode) {
-    define('DB_HOST', "studentmysql.miun.se");
-    define('DB_USER', "leti1900");
-    define('DB_PASSWORD', "vr5y3kdt");   
-    define('DB_NAME', "leti1900");   
+    define('DB_HOST', "localhost");
+    define('DB_USER', "cssgeek");
+    define('DB_PASSWORD', "password");    // NOT right password here
+    define('DB_NAME', "cssgeek_courses");   
 } 
 else {
     define('DB_HOST', "localhost");
