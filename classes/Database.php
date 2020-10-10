@@ -6,7 +6,7 @@ $onlineMode = true;  // false when run locally, put true before upload
 if ($onlineMode) {
     define('DB_HOST', "localhost");
     define('DB_USER', "cssgeek");
-    define('DB_PASSWORD', "password");    // NOT right password here
+    define('DB_PASSWORD', "password");    // NOT right password here !!! 
     define('DB_NAME', "cssgeek_courses");   
 } 
 else {
